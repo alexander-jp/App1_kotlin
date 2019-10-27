@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/inicio"
+          android:id="@+id/inicio"
+          app:showAsAction="ifRoom"
+          android:icon="@drawable/ic_home_24"/>
+    <item android:title="@string/nuevos"
+          app:showAsAction="ifRoom"
+          android:icon="@drawable/ic_subscriptions_24"
+          android:id="@+id/nuevos"/>
+    <item android:title="@string/estrenos"
+          android:icon="@drawable/ic_subscriptions_24"
+          app:showAsAction="ifRoom"
+          android:id="@+id/estrenos"/>
+    <item android:title="@string/descargas"
+          app:showAsAction="ifRoom"
+          android:icon="@drawable/ic_save_alt_24"
+          android:id="@+id/descargas"/>
+    <item android:title="@string/tendencia"
+          android:icon="@drawable/ic_whatshot_24"
+          app:showAsAction="ifRoom"
+          android:id="@+id/tendencia"/>
+</menu>

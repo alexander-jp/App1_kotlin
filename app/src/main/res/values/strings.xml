@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App1_kotlin</string>
+    <string name="inicio">Inicio</string>
+    <string name="nuevos">Nuevos</string>
+    <string name="estrenos">Estrenos</string>
+    <string name="descargas">Descargas</string>
+    <string name="tendencia">Tendencia</string>
+</resources>
